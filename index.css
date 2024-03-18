@@ -65,7 +65,7 @@ footer {
 }
 
 .pageheader {
-    background-image: url(grid2.png);
+    background-image: url(space.jpg);
     background-repeat: both;
     background-attachment: fixed;
     padding: 0px;
@@ -73,6 +73,12 @@ footer {
     color: var(--hi-color);
     overflow: hidden;
     display: block;
+}
+
+.headerGradient {
+    background: rgb(21,21,21);
+    background: linear-gradient(180deg, rgba(21,21,21,0) 0%, rgba(21,21,21,1) 100%, rgba(21,21,21,1) 100%); 
+    height: 1rem;
 }
 
 .projectDisplay {
@@ -127,12 +133,7 @@ footer {
 
 @font-face {
     font-family: titleFont;
-    src: url(mini-wakuwaku.otf);
-}
-
-@font-face {
-    font-family: outlineFont;
-    src: url(mini-convenie.otf);
+    src: url(LondrinaSolid-Black.ttf);
 }
 
 /*************************************************************************
